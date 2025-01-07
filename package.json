@@ -1,0 +1,27 @@
+{
+  "name": "aws-step-functions-manager",
+  "version": "1.0.0",
+  "description": "build, deploy and run aws step functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ https://github.com/ridhamz/aws-step-functions-manager.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "aws",
+    "setp-functions"
+  ],
+  "author": "ridha mezrigui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ridhamz/aws-step-functions-builder/issues"
+  },
+  "homepage": "https://github.com/ridhamz/aws-step-functions-builder#readme",
+  "dependencies": {
+    "@aws-sdk/client-sfn": "^3.723.0"
+  }
+}
