@@ -1,12 +1,12 @@
-const { default: http } = require('./http');
-const { default: apiGateway } = require('./services/api-gateway');
-const { default: batch } = require('./services/batch');
-const { default: dynamodb } = require('./services/daynamodb');
-const { default: ecs } = require('./services/ecs');
-const { default: eventBridge } = require('./services/event-bridge');
-const { default: lambda } = require('./services/lambda');
-const { default: sns } = require('./services/sns');
-const { default: sqs } = require('./services/sqs');
+const http = require('./http');
+const apiGateway = require('./services/api-gateway');
+const batch = require('./services/batch');
+const dynamodb = require('./services/dynamodb');
+const ecs = require('./services/ecs');
+const eventBridge = require('./services/event-bridge');
+const lambda = require('./services/lambda');
+const sns = require('./services/sns');
+const sqs = require('./services/sqs');
 
 class StepFunctionsBuilder {
   constructor(options = {}) {

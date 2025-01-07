@@ -1,3 +1,4 @@
-const StepFunctionsBuilder = require("./builder");
+const StepFunctionsBuilder = require('./builder');
+const StepFunctionsExecuter = require('./executer');
 
-module.exports = {StepFunctionsBuilder, this.StepFunctionsExecuter};
+module.exports = { StepFunctionsBuilder, StepFunctionsExecuter };

@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ridhamz/aws-step-functions-builder#readme",
   "dependencies": {
+    "@aws-sdk/client-iam": "^3.723.0",
     "@aws-sdk/client-sfn": "^3.723.0"
   }
 }
