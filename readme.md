@@ -58,7 +58,7 @@ const workflow = new StepFunctionsBuilder()
 ```js
 const { StepFunctionsExecuter } = require('aws-step-functions-manager');
 
-const deployer = new StepFunctionsExecuter({
+const executer = new StepFunctionsExecuter({
   region: 'us-east-1',
   credentials: {
     accessKeyId: 'YOUR_ACCESS_KEY',
@@ -67,7 +67,7 @@ const deployer = new StepFunctionsExecuter({
 });
 
 async function deployWorkflow() {
-  const result = await deployer.deploy({
+  const result = await executer.deploy({
     name: 'MyWorkflow',
     definition: workflow,
     roleArn: 'arn:aws:iam::account-id:role/service-role/MyStepFunctionsRole',

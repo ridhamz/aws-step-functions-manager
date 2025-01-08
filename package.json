@@ -1,6 +1,6 @@
 {
   "name": "aws-step-functions-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "build, deploy and run aws step functions",
   "main": "src/index.js",
   "scripts": {
